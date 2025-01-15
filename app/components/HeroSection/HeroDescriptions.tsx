@@ -4,13 +4,13 @@ import P from '../P'
 
 const HeroDescriptions = () => {
   return (
-    <div className='flex flex-col gap-10 col-span-5'>
+    <div className='flex flex-col gap-10 col-span-5 py-4'>
       <H1>
-        Olimpo Pereira Neto
+        Olímpio Pereira Neto
       </H1>
 
-      <div className='flex flex-col font-light text-lg tracking-wide '>
-        <span>
+      <div className='flex flex-col font-light text-lg tracking-wide font-serif'>
+        <span className=''>
           1936
         </span>
         <span className='text-base'>
@@ -20,11 +20,11 @@ const HeroDescriptions = () => {
 
       <div>
         <P>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita in laboriosam doloremque delectus iste maxime ab recusandae velit esse distinctio, soluta sapiente modi nam fugiat deleniti. Explicabo possimus ipsam labore!
+          Nascido em 29 de abril de 1936, na fazenda Aroeiras, no município de Orizona, Goiás, Olímpio Pereira Neto foi um professor, jornalista e escritor reconhecido por sua contribuição à cultura e à educação brasileira. Formado em Letras pela Universidade Federal de Goiás, dedicou sua vida à disseminação do conhecimento, lecionando Teoria Literária, Literatura e Filosofia, além de se aposentar como professor da Secretaria de Educação do Governo do Distrito Federal.
         </P>
         <br />
         <P>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quibusdam. Tempore aliquid debitis suscipit magnam velit excepturi delectus sint sed nemo facere enim, similique possimus quos inventore perferendis et officia.
+          Ao longo de sua trajetória, Olímpio foi membro ativo de diversas instituições, como a União Brasileira de Escritores, a Casa do Poeta Brasileiro e o Sindicato dos Escritores de Brasília. Também integrou a Associação Goiana de Imprensa e academias literárias, destacando-se na Academia Taguatinguense de Letras e na Academia de Letras, Ciências & Artes Campo Formoso, de Orizona.
         </P>
       </div>
     </div>

@@ -1,3 +1,4 @@
+import FraseSection from "./components/FraseSection/FraseSection";
 import HeroSection from "./components/HeroSection/HeroSection";
 
 
@@ -7,6 +8,7 @@ export default function Home() {
       <main>
         <HeroSection />
       </main>
+      <FraseSection />
     </div>
   );
 }
