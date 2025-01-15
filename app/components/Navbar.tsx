@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { AnimatePresence, motion } from 'motion/react'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
+import Image from 'next/image'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -30,9 +31,10 @@ const Navbar = () => {
       >
         <Link
           href={'/'}
-          className='text-xl md:text-2xl font-serif tracking-widest select-none'
+          className='text-xl md:text-2xl font-serif tracking-widest select-none flex items-center gap-2'
         >
-          <span className='cursor-pointer hover:scale-110 transition-transform duration-500 ease-in-out'>
+          <Image src={'/pionetoicon.png'} width={50} height={50} alt='Pioneto Olimpio Neto' />
+          <span className='cursor-pointer'>
             PIONETO
           </span>
         </Link>
