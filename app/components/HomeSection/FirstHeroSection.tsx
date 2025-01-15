@@ -1,10 +1,10 @@
 import React from 'react'
-import HeroDescriptions from './HeroDescriptions'
 import HeroPicture from './HeroPicture'
+import HeroDescriptions from './HeroDescriptions'
 
-const HeroSection = () => {
+const FirstHeroSection = () => {
   return (
-    <div className='grid md:grid-cols-12 px-6'>
+    <div className='container mx-auto grid md:grid-cols-12'>
       <HeroPicture />
       <div className='col-span-1' />
       <HeroDescriptions />
@@ -12,4 +12,4 @@ const HeroSection = () => {
   )
 }
 
-export default HeroSection
+export default FirstHeroSection
