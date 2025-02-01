@@ -1,6 +1,7 @@
 import React from 'react'
 import H1 from '../H1'
 import P from '../P'
+import Image from 'next/image'
 
 const HeroDescriptions = () => {
   return (
@@ -26,6 +27,10 @@ const HeroDescriptions = () => {
         <P>
           Ao longo de sua trajetória, Olímpio foi membro ativo de diversas instituições, como a União Brasileira de Escritores, a Casa do Poeta Brasileiro e o Sindicato dos Escritores de Brasília. Também integrou a Associação Goiana de Imprensa e academias literárias, destacando-se na Academia Taguatinguense de Letras e na Academia de Letras, Ciências & Artes Campo Formoso, de Orizona.
         </P>
+      </div>
+      <div className='flex flex-col items-center justify-center'>
+        <Image src='/brasao-orizona.png' alt='Olímpio Pereira Neto' width={300} height={300} />
+        <p className='text-start max-md:text-sm self-end'>Brasão Orizona</p>
       </div>
     </div>
   )

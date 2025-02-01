@@ -14,6 +14,8 @@ const Navbar = () => {
     { label: 'Home', href: '/' },
     { label: 'Sobre Olimpio', href: '/about' },
     { label: 'Livros', href: '/books' },
+    { label: 'Família', href: '/family' },
+    { label: 'Lendas', href: '/legends' },
   ]
 
   function toggleMenu() {
